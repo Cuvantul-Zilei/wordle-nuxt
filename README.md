@@ -1,6 +1,6 @@
-# wordlezin
+# wordle-nuxt
 
-wordlezin is an experiment and study project inspired by wordle and built with Nuxt.js and TypeScript.
+Wordle-nuxt is a learning experiment project inspired by wordle and built with Nuxt.js and TypeScript.
 
 ## Build Setup
 
@@ -18,3 +18,10 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+
+Learn more about Nuxt.js [here](https://nuxtjs.org/).
+
+## Inspiration 🙏
+- [leotabosa](https://github.com/leotabosa/wordlezin)
+- [yyx990803](https://github.com/yyx990803/vue-wordle)
+

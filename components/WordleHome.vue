@@ -117,7 +117,7 @@ export default class WordleHome extends Vue {
       wrong: '⬛',
     }
 
-    let shareMessage = `Wordlezin #${getDay() + 1}\n`
+    let shareMessage = `Wordle #${getDay() + 1}\n`
     shareMessage += `${tries.length}/6\n\n`
 
     tries.forEach((t: any) => {
@@ -139,13 +139,13 @@ export default class WordleHome extends Vue {
       .then(() => {
         this.addNewToast({
           type: 'success',
-          message: 'Texto copiado para o seu Ctrl + V!',
+          message: 'Text copiat!',
         })
       })
       .catch(() => {
         this.addNewToast({
           type: 'error',
-          message: 'Erro ao copiar o texto para o Ctrl + V!',
+          message: 'Eroare la copiereea textului :(',
         })
       })
   }
@@ -167,10 +167,10 @@ export default class WordleHome extends Vue {
       @wrong="addToListOfLetters($event, 'wrongLetters')"
       @end-game="finishGame"
       @no-valid-word="
-        addNewToast({ type: 'error', message: 'A palavra não é válida.' })
+        addNewToast({ type: 'error', message: 'Cuvantul nu e valid.' })
       "
       @not-enough-chars="
-        addNewToast({ type: 'error', message: 'Digite 5 letras.' })
+        addNewToast({ type: 'error', message: 'Cuvinte de 5 litere, te rog.' })
       "
     />
     <button

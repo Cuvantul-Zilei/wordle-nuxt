@@ -6,7 +6,7 @@ export default class WordleHeader extends Vue {}
 </script>
 
 <template>
-  <header class="header">Wordlezin</header>
+  <header class="header">Wordle ✨ Nuxt ✨</header>
 </template>
 
 <style scoped lang="scss">
