@@ -41,7 +41,6 @@ export function isValidWord(word: string): boolean {
 const answers: Array<string> = [
   'baiet',
   'rebut',
-  'amant',
 ]
 
 
